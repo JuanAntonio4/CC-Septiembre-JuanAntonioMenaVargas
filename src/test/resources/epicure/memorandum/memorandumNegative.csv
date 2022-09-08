@@ -1,0 +1,7 @@
+recordIndex,status,code,budget,seqNumber,instantiationMoment,report,link,confirm,key:fineDish
+0,proposed,AA:ASE-472,EUR 40.00,AA:ASE-472:0048, 2022/03/10 20:29,texto de prueba,https://MARCA.es,false,fineDish-01
+0,accepted,GG:GQA-943,EUR 50.00,GG:GQA-943:0049, 2022/03/10 15:22,ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff,https://google.es,true,fineDish-01
+0,accepted,AX:ERT-478,EUR 10.00,AX:ERT-478:0050, 2022/03/10 15:22,,,true,fineDish-01
+
+
+

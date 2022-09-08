@@ -16,7 +16,7 @@ import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 
 public class FavouriteLinkTest extends TestHarness {
-
+	
 	// Lifecycle management ---------------------------------------------------
 
 	// Test cases -------------------------------------------------------------
@@ -25,10 +25,10 @@ public class FavouriteLinkTest extends TestHarness {
 	@Order(10)
 	public void favouriteLink() {
 		super.navigateHome();
-		super.clickOnMenu("Anonymous", "Favourite link");
+		super.clickOnMenu("Anonymous", "Favourite link");		
 		super.checkCurrentUrl("http://www.example.com");
 	}
-
-	// Ancillary methods ------------------------------------------------------
-
+	
+	// Ancillary methods ------------------------------------------------------ 
+	
 }

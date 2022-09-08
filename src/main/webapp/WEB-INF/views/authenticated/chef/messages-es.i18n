@@ -1,0 +1,6 @@
+authenticated.chef.form.label.organisation = Organizacion
+authenticated.chef.form.label.assertion = Afiermacion
+authenticated.chef.form.label.link = URL
+detected.isSpam= Spam detectado
+authenticated.chef.form.button.create = Crear chef
+authenticated.chef.form.button.update = Actualizar chef

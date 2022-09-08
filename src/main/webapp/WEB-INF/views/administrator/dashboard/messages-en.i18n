@@ -1,0 +1,48 @@
+# i18n-es.i18n
+#
+
+administrator.dashboard.form.label.index = Index
+
+administrator.dashboard.form.label.totals = Total cooking items
+administrator.dashboard.form.label.budgets = Budgets data
+administrator.dashboard.form.label.ingredient = Ingredients data by description & currency
+administrator.dashboard.form.label.items = Cooking Items by currency
+
+administrator.dashboard.form.label.totalingredient = Total ingredientes
+administrator.dashboard.form.label.totalkitchenutensil = Total kitchen utensil
+
+administrator.dashboard.form.label.totalNumberfinedishProposed = Total Proposed Patronages
+administrator.dashboard.form.label.totalNumberfinedishAccepted = Total Accepted Patronages
+administrator.dashboard.form.label.totalNumberfinedishDenied = Total Denied Patronages
+
+administrator.dashboard.form.label.finedishBudgetsMaxproposed = Maximum proposed
+administrator.dashboard.form.label.finedishBudgetsMinproposed = Minimum proposed
+administrator.dashboard.form.label.finedishBudgetsAvgproposed = Average proposed
+administrator.dashboard.form.label.finedishBudgetsDevproposed = Deviation proposed
+
+administrator.dashboard.form.label.finedishBudgetsMaxaccepted = Maximum accepted
+administrator.dashboard.form.label.finedishBudgetsMinaccepted = Minimum accepted
+administrator.dashboard.form.label.finedishBudgetsAvgaccepted = Average accepted
+administrator.dashboard.form.label.finedishBudgetsDevaccepted = Deviation accepted
+
+administrator.dashboard.form.label.finedishBudgetsMaxdenied = Maximum denied
+administrator.dashboard.form.label.finedishBudgetsMindenied = Minimum denied
+administrator.dashboard.form.label.finedishBudgetsAvgdenied = Average denied
+administrator.dashboard.form.label.finedishBudgetsDevdenied = Deviation denied
+
+administrator.dashboard.form.label.maxPrice = Max price
+administrator.dashboard.form.label.minPrice = Min price
+administrator.dashboard.form.label.avgPrice = Average Price
+administrator.dashboard.form.label.devPrice = Deviation
+
+
+administrator.dashboard.form.label.totalfinedishstatus = total fine dishes by status
+
+administrator.dashboard.form.label.currency = Currency
+administrator.dashboard.form.label.technology = Technology
+
+administrator.dashboard.form.label.in = in
+
+
+administrator.dashboard.pimpam.budged = Pimpam Budged
+administrator.dashboard.pimpam.ratio = Pimpam and Artefact Ratio

@@ -1,0 +1,19 @@
+
+# i18n-es.i18n
+#
+
+administrator.configuration.list.label.defaultCurr = Divisa predeterminada
+administrator.configuration.list.label.acceptedCurr = Divisas aceptadas
+administrator.configuration.list.label.SpamThreshold = Ponderación Spam
+administrator.configuration.list.label.SpamWords = Palabras Spam
+
+
+
+administrator.configuration.form.label.defaultCurr = Divisa predeterminada
+administrator.configuration.form.label.acceptedCurr = Divisas aceptadas
+administrator.configuration.form.label.SpamThreshold = Ponderación Spam
+administrator.configuration.form.label.SpamWords = Palabras Spam 
+
+authenticated.administrator.fallo = Esta no es una moneda aceptada
+administrator.configuration.form.button.update = Actualizar configuration
+detected.isSpam= Spam detectado

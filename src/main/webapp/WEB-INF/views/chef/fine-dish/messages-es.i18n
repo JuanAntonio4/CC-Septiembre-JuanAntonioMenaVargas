@@ -1,0 +1,27 @@
+chef.finedish.list.label.status = Estado
+chef.finedish.list.label.code = Código
+chef.finedish.list.label.budget = Presupuesto
+
+chef.finedish.form.label.status = Estado
+chef.finedish.form.label.code = Código
+chef.finedish.form.label.request = Solicitud
+chef.finedish.form.label.budget = Presupuesto
+chef.finedish.form.label.startsAt = Fecha de inicio
+chef.finedish.form.label.finishesAt = Fecha de fin
+chef.finedish.form.label.link = Link
+chef.finedish.form.label.epicureorganisation = Organización del sibarita
+chef.finedish.form.label.epicureassertion = Afirmacion del sibarita
+chef.finedish.form.buttom.memorandum = Memorandum
+
+
+authenticated.epicure.finedish.form.button.accepted = Aceptar buen plato
+authenticated.epicure.finedish.form.button.denied = Denegar buen plato
+
+chef.memorandum.form.accept.error = Debe confirmar la creación
+
+chef.memorandum.form.button.create = Crear nuevo memorandum
+
+epicure.label.moneyExchange = Presupuesto en la divisa del sistema
+
+				
+

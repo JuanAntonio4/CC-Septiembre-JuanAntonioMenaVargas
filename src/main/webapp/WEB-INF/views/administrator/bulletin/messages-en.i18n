@@ -1,0 +1,22 @@
+administrator.bulletin.list.label.heading = Heading 
+administrator.bulletin.list.label.instationMoment = Moment of creation
+administrator.bulletin.list.label.link = Link
+administrator.bulletin.list.label.critic = Is critic
+administrator.bulletin.list.label.pieceOfText = Body
+
+administrator.bulletin.form.label.heading = Heading
+administrator.bulletin.form.label.instationMoment = Moment of creation
+administrator.bulletin.form.label.link = Link
+administrator.bulletin.form.label.critic = Is critical?
+administrator.bulletin.form.label.pieceOfText = Body
+
+
+administrator.bulletin.form.label.confirm=Confirm
+administrator.bulletin.form.button.create=Create new one
+administrator.bulletin.accept.error= Confirm the creation to continue please
+
+administrator.bulletin.form.label.false = False
+administrator.bulletin.form.label.true = True
+
+administrator.announcement.accept.error = You must confirm the creation
+detected.isSpam= Spam detected

@@ -1,0 +1,21 @@
+
+epicure.memorandum.form.label.seqNumber = Sequence number
+epicure.memorandum.form.label.instantiationMoment = Creation Moment
+epicure.memorandum.form.label.report = Report
+epicure.memorandum.form.label.link = Link
+
+epicure.fineDish.list.label.seqNumber = Sequence number
+epicure.fineDish.list.label.instantiationMoment = Creation Moment
+epicure.fineDish.list.label.report = Report
+epicure.fineDish.list.label.link = Link
+
+chef.fineDish.list.label.fineDish.identify.status = Status
+chef.fineDish.list.label.fineDish.identify.code = Code
+chef.fineDish.list.label.fineDish.identify.request = Request
+chef.fineDish.list.label.fineDish.identify.budget = Budget
+chef.fineDish.list.label.fineDish.identify.startsAt = Start date
+chef.fineDish.list.label.fineDish.identify.finishesAt = Finish date
+chef.fineDish.list.label.fineDish.identify.link = Link
+chef.memorandum.list.label.fineDish.identify.code = FineDish Code 
+
+detected.isSpam= Spam detected

@@ -1,0 +1,11 @@
+recordIndex,spamWords,spamThreshold,defaultCurr,AcceptedCurr
+0,,0.10,EUR,"EUR,USD,GBP"
+0,"(sex;0.10)",,EUR,"EUR,USD,GBP"
+0,"(sex;0.10)",0.10,,"EUR,USD,GBP"
+0,"(sex;0.10)",0.10,EUR,
+0,"(sex;0.10)",0.10,EUR,"EURO14574"
+0,"(sex;0.10)",0.10,USDIU4714,"EUR,USD,GBP"
+0,"(sex;0.10)",AA,EUR,"EUR,USD,GBP"
+
+
+

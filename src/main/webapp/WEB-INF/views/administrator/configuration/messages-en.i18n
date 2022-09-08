@@ -1,0 +1,18 @@
+# i18n-es.i18n
+#
+
+administrator.configuration.list.label.defaultCurr = Default currency
+administrator.configuration.list.label.acceptedCurr = Accepted currency
+administrator.configuration.list.label.SpamThreshold = Spam Threshold
+administrator.configuration.list.label.SpamWords = Spam Words
+
+
+
+administrator.configuration.form.label.defaultCurr = Default currency
+administrator.configuration.form.label.acceptedCurr = Accepted currency
+administrator.configuration.form.label.SpamThreshold = Spam Threshold
+administrator.configuration.form.label.SpamWords = Spam Words 
+
+authenticated.administrator.fallo = This isn't an accepted currency
+administrator.configuration.form.button.update = Update configuration
+detected.isSpam= Spam detected

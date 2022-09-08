@@ -1,0 +1,7 @@
+recordIndex,heading,instationMoment,pieceOfText,critic,link,confirm
+0,Titulo de broma,2022/08/14 19:42,Hola esto es un mensaje de prueba,true,https://google.com,false
+1,,2022/08/14 19:42,Hola esto es un mensaje de prueba,true,https://google.com,true
+2,Titulo de broma,2022/08/14 19:42,,true,https://google.com,true
+3,Titulo de broma,2022/08/14 19:42,ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff,true,https://google.com,true
+4,fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff,2022/08/14 19:42,Prueba max caracteres posibles,true,https://google.com,true
+5,Titulo de broma,2022/08/14 19:42,Hola esto es un mensaje de prueba,true,estonoesunlink,true

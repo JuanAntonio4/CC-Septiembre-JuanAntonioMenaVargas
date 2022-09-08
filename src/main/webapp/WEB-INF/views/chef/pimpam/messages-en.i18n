@@ -1,0 +1,24 @@
+chef.pimpam.list.label.code= Code
+chef.pimpam.list.label.instationMoment= Instation Moment
+chef.pimpam.list.label.title= Title
+chef.pimpam.list.label.description= Description
+chef.pimpam.list.label.startsAt= StartsAt
+chef.pimpam.list.label.finishesAt= FinichedAt
+chef.pimpam.list.label.budget= Budget	
+chef.pimpam.list.label.link= Link
+
+chef.pimpam.form.label.code= Code
+chef.pimpam.form.label.instationMoment= Instation Moment
+chef.pimpam.form.label.title= Title
+chef.pimpam.form.label.description= Description
+chef.pimpam.form.label.startsAt= StartsAt
+chef.pimpam.form.label.finishesAt= FinichedAt
+chef.pimpam.form.label.budget= Budget	
+chef.pimpam.form.label.link= Link
+
+chef.pimpam.form.button.create= Create Pimpam
+chef.pimpam.form.button.delete= Delete Pimpam
+chef.pimpam.form.button.update=Update Pimpam
+
+
+

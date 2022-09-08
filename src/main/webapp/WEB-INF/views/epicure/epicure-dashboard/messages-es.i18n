@@ -1,0 +1,19 @@
+# i18n-es.i18n
+#
+
+patron.dashboard.form.label.totalfinedishesproposed = Total Buenos Platos propuestos
+patron.dashboard.form.label.totalfinedishesaccepted = Total Buenos Platos aceptados
+patron.dashboard.form.label.totalfinedishesdenied = Total Buenos Platos denegados
+patron.dashboard.form.label.totals = Total Patronages
+
+
+patron.dashboard.form.label.finedishesproposed = Buenos Platos propuestos
+patron.dashboard.form.label.finedishesaccepted =  Buenos Platos aceptados
+patron.dashboard.form.label.finedishesdenied = Buenos Platos denegados
+
+patron.dashboard.form.label.maxPrice = Precio máx
+patron.dashboard.form.label.minPrice = Precio mín
+patron.dashboard.form.label.avgPrice = Precio medio
+patron.dashboard.form.label.devPrice = Desviación típica
+
+patron.dashboard.form.label.currency = Divisa

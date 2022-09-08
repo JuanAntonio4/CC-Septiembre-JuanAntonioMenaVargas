@@ -1,0 +1,6 @@
+authenticated.epicure.form.label.organisation = Organizacion
+authenticated.epicure.form.label.assertion = Afirmacion
+authenticated.epicure.form.label.link = URL
+detected.isSpam= Spam detectado
+authenticated.epicure.form.button.create = Crear sibarita
+authenticated.epicure.form.button.update = Actualizar sibarita

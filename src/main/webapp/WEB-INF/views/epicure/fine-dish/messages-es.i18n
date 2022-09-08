@@ -1,0 +1,55 @@
+
+authenticated.epicure.finedish.form.label.status = Estado
+
+authenticated.epicure.finedish.form.label.code = Codigo
+authenticated.epicure.finedish.form.label.request = Solicitud
+authenticated.epicure.finedish.form.label.budget = Presupuesto
+authenticated.epicure.finedish.form.label.startsAt = Empieza A
+authenticated.epicure.finedish.form.label.finishesAt = Termina A
+authenticated.epicure.finedish.form.label.link = Link
+authenticated.epicure.finedish.form.label.chef.organisation = Organizacion del chef
+authenticated.epicure.finedish.form.label.chef.assertion = Afirmacion del chef
+authenticated.epicure.finedish.form.label.chef.link = Link del chef
+
+epicure.finedish.form.buttom.memorandums = memorandums
+
+authenticated.epicure.finedish.form.label.publishedStatus = Estatus de la Publicación
+
+
+
+epicure.finedish.error.minimumStartAt = La fecha debe de ser como minimo un mes despues de la fecha de creacion
+epicure.finedish.error.minimumFinishesAt = La fecha debe de ser como minimo un mes despues de la fecha de cuando empieza
+
+
+
+authenticated.epicure.finedish.form.label.proposed = Propuesta
+authenticated.epicure.finedish.form.label.accepted = Aceptada
+authenticated.epicure.finedish.form.label.denied = Denegada
+
+authenticated.epicure.finedish.form.label.chef = chef Username
+
+authenticated.epicure.finedish.form.button.update = Actualizar buen plato
+authenticated.epicure.finedish.form.button.publish = Publicar buen plato
+authenticated.epicure.finedish.form.button.create = Crear buen plato
+authenticated.epicure.finedish.form.button.delete = Borrar buen plato
+
+authenticated.epicure.finedish.list.label.status = Estatus
+authenticated.epicure.finedish.list.label.code = Codigo
+authenticated.epicure.finedish.list.label.request = Solicitud
+authenticated.epicure.finedish.list.label.budget = Presupuesto
+authenticated.epicure.finedish.list.label.startsAt = Empieza A
+authenticated.epicure.finedish.list.label.finishesAt = Termina A
+
+epicure.label.moneyExchange = Presupuesto en la divisa del sistema
+
+chef.toolkit.title.codeNotUnique = El código del Buen plato debe ser único
+
+authenticated.epicure.finedish.list.label.priceGreatherZero = El precio debe ser mayor de 0
+epicure.budgetNull = Presupuesto nulo
+
+chef.memorandum.form.accept.error = Debe confirmar la creación
+
+epicure.memorandum.form.button.create = Crear nuevo memorandum asociado
+epicure.item.title.codeNotUnique = Codigo duplicado
+
+detected.isSpam= Spam detectado

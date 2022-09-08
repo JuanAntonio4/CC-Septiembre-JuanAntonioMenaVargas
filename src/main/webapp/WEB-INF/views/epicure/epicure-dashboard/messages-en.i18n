@@ -1,0 +1,19 @@
+# i18n-es.i18n
+#
+
+patron.dashboard.form.label.totalfinedishesproposed = Total Proposed Fine Dishes
+patron.dashboard.form.label.totalfinedishesaccepted = Total Accepted Fine Dishes
+patron.dashboard.form.label.totalfinedishesdenied = Total Denied Fine Dishes
+patron.dashboard.form.label.totals = Total Fine Dishes
+
+
+patron.dashboard.form.label.finedishesproposed = Proposed Fine Dishes
+patron.dashboard.form.label.finedishesaccepted =  Accepted Fine Dishes
+patron.dashboard.form.label.finedishesdenied = Denied Fine Dishes
+
+patron.dashboard.form.label.maxPrice = Max price
+patron.dashboard.form.label.minPrice = Min price
+patron.dashboard.form.label.avgPrice = Average Price
+patron.dashboard.form.label.devPrice = Deviation
+
+patron.dashboard.form.label.currency = Currency

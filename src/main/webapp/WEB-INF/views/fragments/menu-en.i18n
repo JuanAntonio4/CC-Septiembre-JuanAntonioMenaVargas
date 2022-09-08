@@ -16,23 +16,43 @@ master.menu.sign-in = Sign in
 master.menu.sign-out = Sign out
 
 # master.menu.anonymous #######################################################
-
+master.menu.anonymous.user-account = List Enabled Accounts
+master.menu.anonymous.favourite-link = Favourite link
 master.menu.anonymous = Anonymous
 master.menu.anonymous.favourite-link-josgarqui = 75969606P: García, Jose Mª
 master.menu.anonymous.favourite-link-elomordom = 49546083N: Moreno, Eloy
 master.menu.anonymous.favourite-link-juamenvar = 77200485L: Mena, Juan Antonio
+master.menu.anonymous.list-ingredient= List Ingredients
+master.menu.anonymous.list-kitchenUtensil= List Kitchen Utensil
+master.menu.anonymous.list-recipe= List Recipe
+master.menu.anonymous.list-peep = List Peep
+master.menu.authenticated.user-account = List Enabled Accounts
 
-
+# master.menu.authenticated #######################################################
+master.menu.authenticated = Authenticated
+master.menu.authenticated.bulletin = List Bulletins
 
 # master.menu.administrator ###################################################
-
+master.menu.administrator.dashboard = Dashboard
+master.menu.administrator.configurations = Configurations
 master.menu.administrator = Administrator
 master.menu.administrator.dashboard = Dashboard
 master.menu.administrator.user-accounts = User accounts
 master.menu.administrator.populate-initial = Populate DB (initial)
 master.menu.administrator.populate-sample = Populate DB (samples)
 master.menu.administrator.shut-down = Shut down
+master.menu.administrator.bulletin = List Bulletins
 
+
+# master.menu.epicure ########################################################
+
+master.menu.epicure = Epicure
+master.menu.epicure.dashboard = Epicure Dashboard
+master.menu.epicure.finedish = List Fine Dishes 
+
+
+
+master.menu.chef.finedish
 # master.menu.provider ########################################################
 
 master.menu.provider = Provider
@@ -43,11 +63,23 @@ master.menu.provider.favourite-link = Favourite link
 master.menu.consumer = Consumer
 master.menu.consumer.favourite-link = Favourite link
 
-# master.menu.user-account ####################################################
+# master.menu.chef ##########################################################
+master.menu.chef = Chef
+master.menu.chef.ingredients = List Own Ingredients
+master.menu.chef.kitchenUtensil = List Own Kitchen Utensils
+master.menu.chef.recipes= List Own Recipes
+master.menu.chef.finedish= List Own Fine Dishes
 
+# master.menu.user-account ####################################################
+master.menu.authenticated.configuration = System configuration
 master.menu.user-account = Account
 master.menu.user-account.general-data = General data
 master.menu.user-account.provider = Provider data
+
+master.menu.user-account.become-epicure = Become a epicure
+master.menu.user-account.become-chef = Become a chef
 master.menu.user-account.become-provider = Become a provider
 master.menu.user-account.consumer = Consumer data
 master.menu.user-account.become-consumer = Become a consumer
+master.menu.user-account.epicure = Epicure data
+master.menu.user-account.chef = Chef data

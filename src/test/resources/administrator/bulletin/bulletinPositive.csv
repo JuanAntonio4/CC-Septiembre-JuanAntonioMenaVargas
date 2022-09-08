@@ -1,0 +1,6 @@
+recordIndex,heading,instationMoment,pieceOfText,critic,link,confirm
+0,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,2022/08/14 19:42,Prueba max caracteres posibles,true,https://google.com,true
+1,Titulo de broma,2022/08/14 19:42,Hola esto es un mensaje de prueba,true,https://google.com,true
+2,Titulo de cobardes,2022/08/14 19:42,Hola esto es un mensaje de prueba,false,https://google.com,true
+3,Titulo de cubos sin link,2022/08/06 15:21,Hola esto es un mensaje de prueba,true,,true
+4,Titulo de cueva provando max caracteres posibles,2022/08/06 15:21,fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff,true,https://marca.es, true

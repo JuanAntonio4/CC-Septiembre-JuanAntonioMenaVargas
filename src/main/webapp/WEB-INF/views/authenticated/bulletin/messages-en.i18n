@@ -1,0 +1,15 @@
+authenticated.bulletin.list.label.heading = Heading 
+authenticated.bulletin.list.label.instationMoment = Moment of creation
+authenticated.bulletin.list.label.link = Link
+authenticated.bulletin.list.label.critic = Is critic
+authenticated.bulletin.list.label.pieceOfText = Body
+
+authenticated.bulletin.form.label.heading = Heading
+authenticated.bulletin.form.label.instationMoment = Moment of creation
+authenticated.bulletin.form.label.link = Link
+authenticated.bulletin.form.label.critic = Is critic
+authenticated.bulletin.form.label.pieceOfText = Body
+
+
+
+authenticated.bulletin.form.buttom.bulletins = Items

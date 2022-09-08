@@ -1,0 +1,23 @@
+administrator.bulletin.list.label.heading = Titulo 
+administrator.bulletin.list.label.instationMoment = Momento de creación
+administrator.bulletin.list.label.link = Link
+administrator.bulletin.list.label.critic = Es Crítico
+administrator.bulletin.list.label.pieceOfText = Cuerpo
+
+administrator.bulletin.form.label.heading = Titulo
+administrator.bulletin.form.label.instationMoment = Momento de creación
+administrator.bulletin.form.label.link = Link
+administrator.bulletin.form.label.critic = ¿Es Crítico?
+administrator.bulletin.form.label.pieceOfText = Cuerpo
+
+
+administrator.bulletin.form.label.confirm=Confirmar
+administrator.bulletin.form.button.create=Crear uno nuevo
+administrator.bulletin.accept.error= Confirma la creación para continuar por favor
+
+administrator.bulletin.form.label.false = Falso
+administrator.bulletin.form.label.true = Verdadero
+
+administrator.announcement.accept.error = Debe confirmar la creación
+detected.isSpam= Spam detectado
+

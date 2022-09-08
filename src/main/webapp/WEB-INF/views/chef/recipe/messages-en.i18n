@@ -1,0 +1,24 @@
+chef.recipe.list.label.code=Code
+chef.recipe.list.label.heading=Heading
+chef.recipe.list.label.description=Description
+chef.recipe.list.label.preparationNotes=Preparation Notes
+chef.recipe.list.label.link=Link
+
+chef.recipe.form.label.code = Code
+chef.recipe.form.label.heading = Heading
+chef.recipe.form.label.description = Description
+chef.recipe.form.label.preparationNotes = Preparation Notes
+chef.recipe.form.label.link = Link
+chef.recipe.form.label.status = Status
+chef.recipe.form.label.retailPrice= Retail Price
+
+
+chef.recipe.form.buttom.items = Cooking Items
+chef.recipe.form.button.create=Create
+chef.recipe.create= Create Recipe!
+chef.recipe.code.codeNotUnique= Code unique please!
+detected.isSpam= Spam detected
+chef.recipe.form.button.update= Update
+chef.recipe.form.button.delete= Delete
+chef.recipe.form.button.publish= Publish
+

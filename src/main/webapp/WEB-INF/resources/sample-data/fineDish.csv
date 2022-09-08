@@ -1,0 +1,20 @@
+key,status,code,request,budget,publishedStatus,startsAt,finishesAt,creationTime,link,key:chef,key:epicure
+fineDish-04,accepted,AB:ABC-153,Texto de prueba,50.00 eur,NONE_PUBLISHED,2021/02/02 15:22,2021/02/03 15:22,2021/02/03 15:22,https://youtube.com/,chef-01,epicure-01
+fineDish-05,denied,AB:ABC-062,Texto de prueba,80.00 eur,NONE_PUBLISHED,2021/02/02 15:22,2021/02/03 15:22,2021/02/03 15:22,https://youtube.com/,chef-01,epicure-01
+fineDish-06,proposed,AB:ABC-072,Texto de prueba,20.00 eur,NONE_PUBLISHED,2021/02/02 15:22,2021/02/03 15:22,2021/02/03 15:22,https://youtube.com/,chef-01,epicure-01
+fineDish-07,accepted,AB:XDS-153,Texto de prueba,40.00 eur,NONE_PUBLISHED,2021/02/02 15:22,2021/02/03 15:22,2021/02/03 15:22,https://youtube.com/,chef-02,epicure-02
+fineDish-08,denied,AB:TYG-062,Texto de prueba,55.00 eur,NONE_PUBLISHED,2021/02/02 15:22,2021/02/03 15:22,2021/02/03 15:22,https://youtube.com/,chef-02,epicure-02
+fineDish-09,proposed,AB:BVW-072,Texto de prueba,60.00 eur,NONE_PUBLISHED,2021/02/02 15:22,2021/02/03 15:22,2021/02/03 15:22,https://youtube.com/,chef-02,epicure-02
+fineDish-10,accepted,FF:YHG-153,Texto de prueba,34.00 eur,NONE_PUBLISHED,2021/02/02 15:22,2021/02/03 15:22,2021/02/03 15:22,https://youtube.com/,chef-03,epicure-03
+fineDish-11,denied,TY:BKD-062,Texto de prueba,15.00 eur,NONE_PUBLISHED,2021/02/02 15:22,2021/02/03 15:22,2021/02/03 15:22,https://youtube.com/,chef-03,epicure-03
+fineDish-12,proposed,BN:UHG-072,Texto de prueba,70.00 eur,NONE_PUBLISHED,2021/02/02 15:22,2021/02/03 15:22,2021/02/03 15:22,https://youtube.com/,chef-03,epicure-03
+fineDish-13,accepted,ER:PIK-153,Texto de prueba,68.00 eur,NONE_PUBLISHED,2021/02/02 15:22,2021/02/03 15:22,2021/02/03 15:22,https://youtube.com/,chef-01,epicure-01
+fineDish-14,denied,TY:SFX-062,Texto de prueba,13.00 eur,NONE_PUBLISHED,2021/02/02 15:22,2021/02/03 15:22,2021/02/03 15:22,https://youtube.com/,chef-01,epicure-01
+fineDish-15,proposed,EW:GRW-072,Texto de prueba,66.00 eur,NONE_PUBLISHED,2021/02/02 15:22,2021/02/03 15:22,2021/02/03 15:22,https://youtube.com/,chef-01,epicure-01
+fineDish-16,accepted,RE:PDG-153,Texto de prueba,45.00 eur,NONE_PUBLISHED,2021/02/02 15:22,2021/02/03 15:22,2021/02/03 15:22,https://youtube.com/,chef-02,epicure-02
+fineDish-17,denied,IU:XFS-062,Texto de prueba,32.00 eur,NONE_PUBLISHED,2021/02/02 15:22,2021/02/03 15:22,2021/02/03 15:22,https://youtube.com/,chef-02,epicure-02
+fineDish-18,proposed,WE:XDH-072,Texto de prueba,87.00 eur,NONE_PUBLISHED,2021/02/02 15:22,2021/02/03 15:22,2021/02/03 15:22,https://youtube.com/,chef-02,epicure-02
+fineDish-19,accepted,TR:ANE-153,Texto de prueba,55.00 eur,NONE_PUBLISHED,2021/02/02 15:22,2021/02/03 15:22,2021/02/03 15:22,https://youtube.com/,chef-03,epicure-03
+fineDish-20,denied,XO:JIE-062,Texto de prueba,76.00 eur,NONE_PUBLISHED,2021/02/02 15:22,2021/02/03 15:22,2021/02/03 15:22,https://youtube.com/,chef-03,epicure-03
+fineDish-21,proposed,SD:GEQ-072,Texto de prueba,21.00 eur,NONE_PUBLISHED,2021/02/02 15:22,2021/02/03 15:22,2021/02/03 15:22,https://youtube.com/,chef-03,epicure-03
+fineDish-22,accepted,SD:WWW-075,Texto de prueba,21.00 eur,PUBLISHED,2021/02/02 15:22,2021/02/03 15:22,2021/02/03 15:22,https://youtube.com/,chef-01,epicure-03

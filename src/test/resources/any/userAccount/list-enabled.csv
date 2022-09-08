@@ -1,0 +1,5 @@
+recordIndex,roles,identity.name,identity.surname,identity.email
+0,Chef,Juanan,Acme,administrator@acme.com
+1,Chef,Juanan2,Acme,administrator@acme.com
+2,Epicure,Juanan3,Acme,administrator@acme.com
+3,Epicure,Juanan4,Acme,administrator@acme.com

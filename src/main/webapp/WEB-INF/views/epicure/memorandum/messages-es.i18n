@@ -1,0 +1,20 @@
+
+epicure.memorandum.form.label.seqNumber = Número de secuencia
+epicure.memorandum.form.label.instantiationMoment = Momento de creación
+epicure.memorandum.form.label.report = Reporte
+epicure.memorandum.form.label.link = Link
+
+epicure.fineDish.list.label.seqNumber = Número de secuencia
+epicure.fineDish.list.label.instantiationMoment = Momento de creación
+epicure.fineDish.list.label.report = Reporte
+epicure.fineDish.list.label.link = Link
+
+chef.fineDish.list.label.fineDish.identify.status = Status
+chef.fineDish.list.label.fineDish.identify.code = Código
+chef.fineDish.list.label.fineDish.identify.request = Solicitud
+chef.fineDish.list.label.fineDish.identify.budget = Presupuesto
+chef.fineDish.list.label.fineDish.identify.startsAt = Fecha de inicio
+chef.fineDish.list.label.fineDish.identify.finishesAt = Fecha de fin
+chef.fineDish.list.label.fineDish.identify.link = Link
+
+detected.isSpam= Spam detectado

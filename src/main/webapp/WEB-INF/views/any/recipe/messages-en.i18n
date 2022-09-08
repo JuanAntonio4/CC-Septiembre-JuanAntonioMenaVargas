@@ -1,0 +1,13 @@
+any.recipe.list.label.code = Code 
+any.recipe.list.label.heading = Heading 
+any.recipe.list.label.description = Description 
+any.recipe.list.label.preparationNotes = Preparation Notes 
+any.recipe.list.label.link = Link
+
+any.recipe.form.label.code=Code
+any.recipe.form.label.heading=Heading
+any.recipe.form.label.description=Description
+any.recipe.form.label.preparationNotes=Preparation Notes
+any.recipe.form.label.link=Link
+
+any.recipe.form.buttom.cookingitems = Cooking Items

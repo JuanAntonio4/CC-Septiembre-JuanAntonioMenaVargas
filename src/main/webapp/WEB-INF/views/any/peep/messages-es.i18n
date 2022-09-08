@@ -1,0 +1,18 @@
+any.peep.form.label.writer = Autor:
+any.peep.form.label.pieceOfText = Pieza de texto:
+any.peep.form.label.instantionMoment = Momento de creación:
+any.peep.form.label.email = Email:
+any.peep.form.label.heading = Titulo:
+
+any.peep.list.label.writer = Autor
+any.peep.list.label.pieceOfText = Pieza de texto
+any.peep.list.label.instantionMoment = Momento de creación
+any.peep.list.label.email = Email
+any.peep.list.label.heading = Titulo
+
+any.peep.form.label.confirm= Confirmar creación
+any.peep.form.button.create = Crear
+any.peep.accept.error = Confirma la creación por favor
+
+any.peep.list.button.create = Crear uno nuevo
+detected.isSpam= Spam detectado

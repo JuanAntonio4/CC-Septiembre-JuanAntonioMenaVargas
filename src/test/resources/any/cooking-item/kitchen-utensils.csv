@@ -1,0 +1,8 @@
+recordIndex,name,code,description,retailPrice,link,type
+0,Colador,AB:AGC-123,utensilio bueno,EUR 10.00,https://google.com,KITCHEN_UTENSIL
+1,Cuchara,AB:AHN-123,utensilio bueno,EUR 15.00,https://google.com,KITCHEN_UTENSIL
+2,Cuchillo,AB:ABC-123,utensilio bueno,EUR 15.00,https://google.com,KITCHEN_UTENSIL
+3,Espátula,AB:WRE-123,utensilio bueno,EUR 15.00,https://google.com,KITCHEN_UTENSIL
+4,Pinzas,AB:ERY-123,utensilio bueno,EUR 15.00,https://google.com,KITCHEN_UTENSIL
+5,Tabla de cortar,AB:BVG-123,utensilio bueno,EUR 15.00,https://google.com,KITCHEN_UTENSIL
+6,Tenedor,IB:AXC-123,utensilio bueno,EUR 15.00,https://google.com,KITCHEN_UTENSIL

@@ -1,0 +1,25 @@
+chef.memorandum.form.label.seqNumber = Sequence Number 
+chef.memorandum.form.label.instantiationMoment = Creation Moment
+chef.memorandum.form.label.report = Report
+chef.memorandum.form.label.link = Link
+chef.memorandum.form.label.fineDish.code = FineDish code
+
+chef.memorandum.list.label.seqNumber = Sequence Number 
+chef.memorandum.list.label.instantiationMoment = Creation Moment
+chef.memorandum.list.label.report = Report
+chef.memorandum.list.label.fineDish = FineDish details
+chef.memorandum.list.label.link = Link
+chef.memorandum.list.label.fineDish.details = Memorandum 
+chef.memorandum.list.label.fineDish.identify.code = FineDish Code 
+chef.fineDish.list.label.fineDish.identify.status = Status
+chef.fineDish.list.label.fineDish.identify.code = Code
+chef.fineDish.list.label.fineDish.identify.request = Request
+chef.fineDish.list.label.fineDish.identify.budget = Budget
+chef.fineDish.list.label.fineDish.identify.startsAt = Start date
+chef.fineDish.list.label.fineDish.identify.finishesAt = Finish date
+chef.fineDish.list.label.fineDish.identify.link = Link
+
+chef.memorandum.form.label.confirm = Confirm
+chef.memorandum.form.button.create = Create new memorandum asociated
+
+detected.isSpam= Spam detected

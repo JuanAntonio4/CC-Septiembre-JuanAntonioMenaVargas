@@ -1,0 +1,45 @@
+chef.cookingItem.list.label.name = Name 
+chef.cookingItem.list.label.code= Code
+chef.cookingItem.list.label.retailPrice= Price
+chef.cookingItem.list.label.description = Descripcion 
+chef.cookingItem.list.label.link = Link
+chef.cookingItem.list.label.type = Type
+
+chef.cookingItem.form.label.name = Name
+chef.cookingItem.form.label.code= Code
+chef.cookingItem.form.label.technology= Technology
+chef.cookingItem.form.label.description= Description
+chef.cookingItem.form.label.link= Link
+chef.cookingItem.form.label.retailPrice= Retail price
+chef.cookingItem.form.label.type = Type
+chef.cookingItem.form.label.status=Status
+
+chef.cookingItem.form.label.ingredient=Ingredient
+chef.cookingItem.form.label.kitchen-utensil= Kitchen Utensil
+
+chef.cookingItem.list.button.create= Create Cooking Item
+chef.cookingItem.form.button.create= Create!
+
+chef.cookingItem.list.button.createIngredient= Create Ingredient
+chef.cookingItem.list.button.createKitchenUtensil= Create Kitchen Utensil
+chef.cookingItem.form.button.createIngredient= Create Ingredient
+chef.cookingItem.form.button.createKitchenUtensil= Create Kitchen Utensil
+
+chef.cookingItem.form.buttom.items= Items
+
+chef.cookingItem.form.button.delete= Delete
+chef.cookingItem.form.button.update= Update
+chef.cookingItem.form.button.publish= Publish
+detected.isSpam= Spam detected
+chef.precioMinimo= Price greater than zero
+chef.precioMinimo2 = Price greater or equal than zero
+
+chef.retailpriceNull = Retail price null
+
+
+chef.precioMinimo.kitchen= Price greater than zero
+
+chef.kitchenutensil.title.codeNotUnique = Code not unique
+epicure.label.moneyExchange = Budget in System's Currency
+
+chef.pimpam.form.button.list= Pimpams

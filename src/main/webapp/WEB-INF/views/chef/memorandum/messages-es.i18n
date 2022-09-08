@@ -1,0 +1,26 @@
+chef.memorandum.form.label.seqNumber = Número de secuencia 
+chef.memorandum.form.label.instantiationMoment = Momento de creación
+chef.memorandum.form.label.report = Reporte
+chef.memorandum.form.label.link = Link
+chef.memorandum.form.label.fineDish.code = Código de buen plato
+
+chef.memorandum.list.label.seqNumber = Número de secuencia 
+chef.memorandum.list.label.instantiationMoment = Momento de creación
+chef.memorandum.list.label.report = Reporte
+chef.memorandum.list.label.fineDish = detalles del buen plato
+chef.memorandum.list.label.link = Link
+chef.memorandum.list.label.fineDish.details = Memorandum
+chef.memorandum.list.label.fineDish.identify.code = Código de buen plato
+ 
+chef.fineDish.list.label.fineDish.identify.status = Status
+chef.fineDish.list.label.fineDish.identify.code = Código
+chef.fineDish.list.label.fineDish.identify.request = Solicitud
+chef.fineDish.list.label.fineDish.identify.budget = Presupuesto
+chef.fineDish.list.label.fineDish.identify.startsAt = Fecha de inicio
+chef.fineDish.list.label.fineDish.identify.finishesAt = Fecha de fin
+chef.fineDish.list.label.fineDish.identify.link = Link
+
+chef.memorandum.form.label.confirm = Confirmar
+chef.memorandum.form.button.create = Crea nuevo memorandum asociado
+
+detected.isSpam= Spam detectado

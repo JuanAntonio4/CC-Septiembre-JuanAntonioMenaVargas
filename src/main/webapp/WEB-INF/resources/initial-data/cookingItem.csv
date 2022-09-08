@@ -1,0 +1,3 @@
+key,name,code,description,retailPrice,link,status,type,key:chef
+cookingItem-01,Cebolla,AB:ABC-012,ingrediente bueno,EUR 10.00,https://google.com,PUBLISHED,INGREDIENT,chef-01
+cookingItem-02,Cuchillo,AB:ABC-123,utensilio bueno,EUR 15.00,https://google.com,PUBLISHED,KITCHEN_UTENSIL,chef-01

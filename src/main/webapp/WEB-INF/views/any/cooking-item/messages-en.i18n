@@ -1,0 +1,16 @@
+any.cookingItem.list.label.name = Name 
+any.cookingItem.list.label.code= Code
+any.cookingItem.list.label.retailPrice= Price
+any.cookingItem.list.label.description = Descripcion 
+any.cookingItem.list.label.link = Link
+any.cookingItem.list.label.type = Type
+
+any.cookingItem.form.label.name = Name
+any.cookingItem.form.label.code= Code
+any.cookingItem.form.label.technology= Technology
+any.cookingItem.form.label.description= Description
+any.cookingItem.form.label.link= Link
+any.cookingItem.form.label.retailPrice= Retail price
+any.cookingItem.form.label.type = Type
+
+any.cookingItem.form.buttom.items= Items

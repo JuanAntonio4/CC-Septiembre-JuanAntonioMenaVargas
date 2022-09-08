@@ -1,0 +1,8 @@
+recordIndex,name,code,description,retailPrice,link,type
+0,Ajo,AB:POK-012,ingrediente bueno,EUR 10.00,https://google.com,INGREDIENT
+1,Cebolla,AB:ABC-012,ingrediente bueno,EUR 10.00,https://google.com,INGREDIENT
+2,Orégano,AB:LAH-012,ingrediente bueno,EUR 10.00,https://google.com,INGREDIENT
+3,Patata,AB:UMC-922,ingrediente bueno,EUR 10.00,https://google.com,INGREDIENT
+4,Pimiento,AB:ABD-012,ingrediente bueno,EUR 13.00,https://google.com,INGREDIENT
+5,Queso,AB:POC-012,ingrediente bueno,EUR 10.00,https://google.com,INGREDIENT
+6,Tomate,AB:KBC-012,ingrediente bueno,EUR 17.00,https://google.com,INGREDIENT

@@ -1,0 +1,48 @@
+chef.quantity.list.label.number = Quantity
+chef.quantity.list.label.name = Name
+chef.quantity.list.label.code = Code
+chef.quantity.list.label.retailPrice = Retail Price
+chef.quantity.list.label.status = Status
+chef.quantity.list.label.type = Type
+chef.quantity.form.label.number = Number 
+chef.quantity.form.label.name = Name
+chef.quantity.form.label.code = Code
+chef.quantity.form.label.description = Description
+chef.quantity.form.label.retailPrice = Retail Price
+chef.quantity.form.label.link = Link
+chef.quantity.form.label.status = Status
+chef.quantity.form.label.type = Type
+chef.quantity.form.label.amount= Amount
+
+chef.quantity.form.label.item = Cooking Item
+
+chef.recipe.form.button.quantity.ingredient = Add Ingredients
+chef.recipe.form.button.quantity.utensil= Add Kitchen Utensil
+chef.quantity.form.button.create = Add
+
+chef.quantity.recipe.noPublished = This item hasnt been published 
+chef.quantity.number.ingredient = You only can add 1 instance of one particular ingredient
+chef.quantity.recipe.noPublished = You cant add items to this recipe(This recipe has been published yet)
+chef.quantity.item.status = You cant update a published item
+
+chef.quantity.Spam= Spam detected!
+
+
+chef.quantity.cookingitem.exist = This item exist on the recipe
+
+chef.quantity.form.button.update = Update number of items
+
+chef.quantity.form.button.updateItem = Update owned item
+
+chef.cookingitem.minPrice= Price greater than zero.
+
+chef.quantity.form.label.gram= Gram
+chef.quantity.form.label.kilo = Kilo
+chef.quantity.form.label.cm3 =Cm3
+chef.quantity.form.label.gallon = Gallon
+chef.quantity.form.label.spoon = Spoon
+chef.quantity.form.label.vacio= Choose an amount
+
+quantity.chef.noutensil = There are no kitchen utensils to add
+quantity.chef.noingredientes = There are no ingredients to add
+

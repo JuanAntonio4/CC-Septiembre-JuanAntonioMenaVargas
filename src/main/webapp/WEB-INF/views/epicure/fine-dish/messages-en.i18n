@@ -1,0 +1,58 @@
+
+authenticated.epicure.finedish.form.label.status = Status
+
+authenticated.epicure.finedish.form.label.code = Code
+authenticated.epicure.finedish.form.label.request = Request
+authenticated.epicure.finedish.form.label.budget = Budget
+authenticated.epicure.finedish.form.label.startsAt = Start At
+authenticated.epicure.finedish.form.label.finishesAt = Finishes At
+authenticated.epicure.finedish.form.label.link = Link
+authenticated.epicure.finedish.form.label.chef.organisation = Chef Organisation
+authenticated.epicure.finedish.form.label.chef.assertion = Chef Assertion
+authenticated.epicure.finedish.form.label.chef.link = Chef Link
+
+epicure.finedish.form.buttom.memorandums = Memorandums
+
+authenticated.epicure.finedish.form.label.publishedStatus = Published Status
+
+
+
+epicure.finedish.error.minimumStartAt = The date must be at least one month after the creation date
+epicure.finedish.error.minimumFinishesAt = The date must be at least one month after the start date
+
+administrator.announcement.strongspam = Strong Spam
+administrator.announcement.weakspam = Weak Spam
+
+
+authenticated.epicure.finedish.form.label.proposed = Proposed
+authenticated.epicure.finedish.form.label.accepted = Accepted
+authenticated.epicure.finedish.form.label.denied = Denied
+
+authenticated.epicure.finedish.form.label.chef = chef Username
+
+authenticated.epicure.finedish.form.button.update = Update finedish
+authenticated.epicure.finedish.form.button.publish = Publish finedish
+authenticated.epicure.finedish.form.button.create = Create finedish
+authenticated.epicure.finedish.form.button.delete = Delete finedish
+
+authenticated.epicure.finedish.list.label.status = Status
+authenticated.epicure.finedish.list.label.code = Code
+authenticated.epicure.finedish.list.label.request = Request
+authenticated.epicure.finedish.list.label.budget = Budget
+authenticated.epicure.finedish.list.label.startsAt = Start At
+authenticated.epicure.finedish.list.label.finishesAt = Finishes At
+
+epicure.label.moneyExchange = Budget in System's Currency
+
+chef.toolkit.title.codeNotUnique = finedish's code is not unique
+
+authenticated.epicure.finedish.list.label.priceGreatherZero = Prize must be greather than zero
+epicure.budgetNull = Budget Null
+
+chef.memorandum.form.accept.error = Must confirm the creation
+
+epicure.memorandum.form.button.create = Create new memorandum asociated
+
+epicure.item.title.codeNotUnique = Duplicate code
+
+detected.isSpam= Spam detected

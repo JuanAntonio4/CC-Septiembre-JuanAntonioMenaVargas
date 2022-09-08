@@ -1,0 +1,13 @@
+key,name,code,description,retailPrice,link,status,type,key:chef
+cookingItem-03,Pimiento,AB:ABD-012,ingrediente bueno,EUR 13.00,https://google.com,PUBLISHED,INGREDIENT,chef-01
+cookingItem-04,Colador,AB:AGC-123,utensilio bueno,EUR 10.00,https://google.com,PUBLISHED,KITCHEN_UTENSIL,chef-01
+cookingItem-05,Tomate,AB:KBC-012,ingrediente bueno,EUR 17.00,https://google.com,PUBLISHED,INGREDIENT,chef-02
+cookingItem-06,Cuchara,AB:AHN-123,utensilio bueno,EUR 15.00,https://google.com,PUBLISHED,KITCHEN_UTENSIL,chef-02
+cookingItem-07,Queso,AB:POC-012,ingrediente bueno,EUR 10.00,https://google.com,PUBLISHED,INGREDIENT,chef-03
+cookingItem-08,Tenedor,IB:AXC-123,utensilio bueno,EUR 15.00,https://google.com,PUBLISHED,KITCHEN_UTENSIL,chef-03
+cookingItem-09,Patata,AB:UMC-922,ingrediente bueno,EUR 10.00,https://google.com,PUBLISHED,INGREDIENT,chef-01
+cookingItem-10,Pinzas,AB:ERY-123,utensilio bueno,EUR 15.00,https://google.com,PUBLISHED,KITCHEN_UTENSIL,chef-01
+cookingItem-11,Ajo,AB:POK-012,ingrediente bueno,EUR 10.00,https://google.com,PUBLISHED,INGREDIENT,chef-02
+cookingItem-12,Tabla de cortar,AB:BVG-123,utensilio bueno,EUR 15.00,https://google.com,PUBLISHED,KITCHEN_UTENSIL,chef-02
+cookingItem-13,Orégano,AB:LAH-012,ingrediente bueno,EUR 10.00,https://google.com,PUBLISHED,INGREDIENT,chef-03
+cookingItem-14,Espátula,AB:WRE-123,utensilio bueno,EUR 15.00,https://google.com,PUBLISHED,KITCHEN_UTENSIL,chef-03

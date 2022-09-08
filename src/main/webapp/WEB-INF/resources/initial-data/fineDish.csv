@@ -1,0 +1,4 @@
+key,status,code,request,budget,publishedStatus,startsAt,finishesAt,creationTime,link,key:chef,key:epicure
+fineDish-01,accepted,GG:GQA-943,Texto de prueba,50.00 eur,NONE_PUBLISHED,2021/02/02 15:22,2021/02/03 15:22,2021/02/03 15:22,https://youtube.com/,chef-01,epicure-01
+fineDish-02,denied,AB:AJF-036,Texto de prueba,50.00 eur,NONE_PUBLISHED,2021/02/02 15:22,2021/02/03 15:22,2021/02/03 15:22,https://youtube.com/,chef-02,epicure-02
+fineDish-03,proposed,AB:AIO-122,Texto de prueba,50.00 eur,NONE_PUBLISHED,2021/02/02 15:22,2021/02/03 15:22,2021/02/03 15:22,https://youtube.com/,chef-02,epicure-02

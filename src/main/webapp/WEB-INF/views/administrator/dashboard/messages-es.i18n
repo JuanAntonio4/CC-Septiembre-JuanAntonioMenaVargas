@@ -1,0 +1,49 @@
+# i18n-es.i18n
+#
+
+administrator.dashboard.form.label.index = Índice
+
+administrator.dashboard.form.label.totals = Cooking Items totales
+administrator.dashboard.form.label.budgets = Información de presupuestos
+administrator.dashboard.form.label.ingredient = Información de ingredientes por descripcion & divisa
+administrator.dashboard.form.label.items = Información de Items por divisa
+
+administrator.dashboard.form.label.totalingredient = Total de ingredientes
+administrator.dashboard.form.label.totalkitchenutensil = Total de utensilios de cocina
+
+administrator.dashboard.form.label.totalNumberfinedishProposed = Total buenos platos propuestos
+administrator.dashboard.form.label.totalNumberfinedishAccepted = Total buenos platos aceptados
+administrator.dashboard.form.label.totalNumberfinedishDenied = Total buenos platos denegados
+
+administrator.dashboard.form.label.finedishBudgetsMaxproposed = Máximo propuesto
+administrator.dashboard.form.label.finedishBudgetsMinproposed = Mínimo propuesto
+administrator.dashboard.form.label.finedishBudgetsAvgproposed = Media propuesto
+administrator.dashboard.form.label.finedishBudgetsDevproposed = Desviación propuesto
+
+administrator.dashboard.form.label.finedishBudgetsMaxaccepted = Máximo aceptado
+administrator.dashboard.form.label.finedishBudgetsMinaccepted = Mínimo aceptado
+administrator.dashboard.form.label.finedishBudgetsAvgaccepted = Media aceptado
+administrator.dashboard.form.label.finedishBudgetsDevaccepted = Desviación aceptado
+
+administrator.dashboard.form.label.finedishBudgetsMaxdenied = Máximo rechazado
+administrator.dashboard.form.label.finedishBudgetsMindenied = Mínimo rechazado
+administrator.dashboard.form.label.finedishBudgetsAvgdenied = Media rechazado
+administrator.dashboard.form.label.finedishBudgetsDevdenied = Desviación rechazado
+
+administrator.dashboard.form.label.maxPrice = Precio máx
+administrator.dashboard.form.label.minPrice = Precio mín
+administrator.dashboard.form.label.avgPrice = Precio medio
+administrator.dashboard.form.label.devPrice = Desviación típica
+
+
+administrator.dashboard.form.label.totalfinedishstatus = total de buenos platos por estatus
+
+
+administrator.dashboard.form.label.currency = Divisa
+administrator.dashboard.form.label.technology = Tecnología
+
+administrator.dashboard.form.label.in = en
+
+
+administrator.dashboard.pimpam.budged = Presupuesto de Pimpam
+administrator.dashboard.pimpam.ratio = Ratio de Pimpam y Artefact 
