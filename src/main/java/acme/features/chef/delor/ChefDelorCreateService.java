@@ -1,5 +1,5 @@
 
-package acme.features.chef.pimpam;
+package acme.features.chef.delor;
 
 import java.util.Arrays;
 import java.util.Collection;
@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
 
 import acme.entities.configuration.Configuration;
 import acme.entities.cookingItem.CookingItem;
-import acme.entities.pimpam.Pimpam;
+import acme.entities.delor.Delor;
 import acme.features.administrator.configurations.AdministratorConfigurationRepository;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Errors;
@@ -23,17 +23,17 @@ import acme.framework.services.AbstractCreateService;
 import acme.roles.Chef;
 
 @Service
-public class ChefPimpamCreateService implements AbstractCreateService<Chef, Pimpam> {
+public class ChefDelorCreateService implements AbstractCreateService<Chef, Delor> {
 
 	@Autowired
-	protected ChefPimpamRepository repository;
+	protected ChefDelorRepository repository;
 
 	@Autowired
 	protected AdministratorConfigurationRepository	configurationRepository;
 
 
 	@Override
-	public boolean authorise(final Request<Pimpam> request) {
+	public boolean authorise(final Request<Delor> request) {
 		assert request != null;
 
 		final int id = request.getModel().getInteger("id");
@@ -44,30 +44,30 @@ public class ChefPimpamCreateService implements AbstractCreateService<Chef, Pimp
 	}
 
 	@Override
-	public void bind(final Request<Pimpam> request, final Pimpam entity, final Errors errors) {
+	public void bind(final Request<Delor> request, final Delor entity, final Errors errors) {
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
 		
 		
-		request.bind(entity, errors, "code", "instationMoment", "title", "description", "startsAt", "finishesAt", "budget", "link");
+		request.bind(entity, errors, "keylet", "instationMoment","subject", "explanation","income","startsAt","finishesAt","moreInfo");
 	}
 
 	@Override
-	public void unbind(final Request<Pimpam> request, final Pimpam entity, final Model model) {
+	public void unbind(final Request<Delor> request, final Delor entity, final Model model) {
 		assert request != null;
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "code", "instationMoment", "title", "description", "startsAt", "finishesAt", "budget", "link");
+		request.unbind(entity, model, "keylet", "instationMoment","subject", "explanation","income","startsAt","finishesAt","moreInfo");
 
 	}
 
 	@Override
-	public Pimpam instantiate(final Request<Pimpam> request) {
+	public Delor instantiate(final Request<Delor> request) {
 		assert request != null;
 
-		final Pimpam result;
+		final Delor result;
 		Date creationTime;
 		Date startTime;
 		Date finishedTime;
@@ -84,15 +84,15 @@ public class ChefPimpamCreateService implements AbstractCreateService<Chef, Pimp
 		money.setAmount(0.0);
 		money.setCurrency("EUR");
 
-		result = new Pimpam();
-		result.setCode(this.generateCode());
+		result = new Delor();
+		result.setKeylet(this.generateCode());
 		result.setInstationMoment(date);
-		result.setDescription("");
-		result.setTitle("");
+		result.setExplanation("");
+		result.setSubject("");
 		result.setStartsAt(startTime);
 		result.setFinishesAt(finishedTime);
-		result.setBudget(money);
-		result.setLink("");
+		result.setIncome(money);
+		result.setMoreInfo("");
 		final int id = request.getModel().getInteger("id");
 		final CookingItem ci = this.repository.findOneCookingItemById(id);
 		result.setCookingItem(ci);
@@ -111,24 +111,20 @@ public class ChefPimpamCreateService implements AbstractCreateService<Chef, Pimp
 
 	private String generateCode() {
 		String code = "";
-		final List<String> alphabet = Arrays.asList("A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z");
-
-		for (int i = 0; i < 2; i++) {
-			code += alphabet.get(ThreadLocalRandom.current().nextInt(0, alphabet.size()));
-		}
-		code += ":";
-		for (int i = 0; i < 3; i++) {
-			code += alphabet.get(ThreadLocalRandom.current().nextInt(0, alphabet.size()));
-		}
-		code += "-";
-		for (int i = 0; i < 3; i++) {
+	
+		for (int i = 0; i < 6; i++) {
 			code += Integer.toString(ThreadLocalRandom.current().nextInt(0, 9));
 		}
+		code += ":";
+		for (int i = 0; i < 6; i++) {
+			code += Integer.toString(ThreadLocalRandom.current().nextInt(0, 9));
+		}
+		
 		return code;
 	}
 
 	@Override
-	public void validate(final Request<Pimpam> request, final Pimpam entity, final Errors errors) {
+	public void validate(final Request<Delor> request, final Delor entity, final Errors errors) {
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
@@ -136,13 +132,13 @@ public class ChefPimpamCreateService implements AbstractCreateService<Chef, Pimp
 		final Collection<Configuration> config = this.configurationRepository.findConfigurations();
 
 		for (final Configuration c : config) {
-			errors.state(request, !c.isSpam(entity.getTitle()), "title", "detected.isSpam");
-			errors.state(request, !c.isSpam(entity.getDescription()), "description", "detected.isSpam");
-			errors.state(request, !c.isSpam(entity.getLink()), "link", "detected.isSpam");
+			errors.state(request, !c.isSpam(entity.getSubject()), "title", "detected.isSpam");
+			errors.state(request, !c.isSpam(entity.getExplanation()), "description", "detected.isSpam");
+			errors.state(request, !c.isSpam(entity.getMoreInfo()), "link", "detected.isSpam");
 
 		}
 
-		final Pimpam pimpam = this.repository.findPimpamByCode(entity.getCode());
+		final Delor pimpam = this.repository.findPimpamByCode(entity.getKeylet());
 
 		if (pimpam != null) {
 			errors.state(request, pimpam.getId() == entity.getId(), "code", "epicure.item.title.codeNotUnique");
@@ -160,15 +156,14 @@ public class ChefPimpamCreateService implements AbstractCreateService<Chef, Pimp
 
 		if (!errors.hasErrors("budget")) {
 
-			final Money budget = entity.getBudget();
+			final Money budget = entity.getIncome();
 			final boolean availableCurrency = this.validateAvailableCurrencyRetailPrice(budget);
 
 			errors.state(request, availableCurrency, "budget", "epicure.budgetNull");
 
-			errors.state(request, entity.getBudget().getAmount() > 0.00, "budget", "authenticated.epicure.finedish.list.label.priceGreatherZero");
-
+			errors.state(request, entity.getIncome().getAmount() > 0.00, "budget", "authenticated.epicure.finedish.list.label.priceGreatherZero");
 		}
-		
+	
 //		if(entity.getInstationMoment()!=null) {
 //	        final Calendar calendar2 = Calendar.getInstance();
 //	        calendar2.setTime(entity.getInstationMoment());
@@ -182,15 +177,14 @@ public class ChefPimpamCreateService implements AbstractCreateService<Chef, Pimp
 //	        
 //	        bol1 = codesplit[0] == year.substring(2);
 //	        bol2 = codesplit[1] == year;
-//	        bol3 = codesplit[2] == year;
+//        bol3 = codesplit[2] == year;
 //
-//	        errors.state(request,(bol1&bol2&bol3) , "code", "administrator.configuration.currency.notExist");
+//        errors.state(request,(bol1&bol2&bol3) , "code", "administrator.configuration.currency.notExist");
 //			}
-
 	}
 
 	@Override
-	public void create(final Request<Pimpam> request, final Pimpam entity) {
+	public void create(final Request<Delor> request, final Delor entity) {
 		assert request != null;
 		assert entity != null;
 

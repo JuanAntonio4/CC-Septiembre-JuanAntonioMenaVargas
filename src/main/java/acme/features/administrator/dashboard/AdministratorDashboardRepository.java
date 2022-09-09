@@ -29,12 +29,12 @@ public interface AdministratorDashboardRepository extends AbstractRepository {
 	
 	
 	
-	//control check dashboard
 	
-	@Query("SELECT p.budget.currency, MIN(p.budget.amount), MAX(p.budget.amount), AVG(p.budget.amount), STDDEV(p.budget.amount) from Pimpam p  GROUP BY p.budget.currency")
+	
+	@Query("SELECT p.income.currency, MIN(p.income.amount), MAX(p.income.amount), AVG(p.income.amount), STDDEV(p.income.amount) from Delor p  GROUP BY p.income.currency")
 	List<String> getPimpamBudget();
 	
-	@Query("SELECT COUNT(c) FROM Pimpam c")
+	@Query("SELECT COUNT(c) FROM Delor c")
     Integer getAllPimpam();
 
   

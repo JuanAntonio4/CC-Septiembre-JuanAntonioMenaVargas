@@ -32,10 +32,10 @@ public class Dashboard implements Serializable {
 	
 	private Map<Status, Map<String, Double>> FineDishesBudgets;
 	
-	//control check
+	
 	
 	Double ratio;
-	// aqui termina control check
+	
 	
 	private Map<String, Map<String, Double>> pimpamBudget;
 

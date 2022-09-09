@@ -1,4 +1,4 @@
-package acme.features.chef.pimpam;
+package acme.features.chef.delor;
 
 import java.util.Collection;
 
@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 
 import acme.entities.cookingItem.CookingItem;
 import acme.entities.cookingItem.Status;
-import acme.entities.pimpam.Pimpam;
+import acme.entities.delor.Delor;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Request;
 import acme.framework.helpers.CollectionHelper;
@@ -16,20 +16,20 @@ import acme.roles.Chef;
 
 
 @Service
-public class ChefPimpamListService implements AbstractListService<Chef, Pimpam> {
+public class ChefDelorListService implements AbstractListService<Chef, Delor> {
 	
 	@Autowired
-	protected ChefPimpamRepository repository;
+	protected ChefDelorRepository repository;
 	
 	@Override
-	public boolean authorise(final Request<Pimpam> request) {
+	public boolean authorise(final Request<Delor> request) {
 		assert request != null;
 		
 		return true;
 	}
 	
 	@Override
-	public Collection<Pimpam> findMany(final Request<Pimpam> request){
+	public Collection<Delor> findMany(final Request<Delor> request){
 		assert request != null;
 
 	
@@ -38,7 +38,7 @@ public class ChefPimpamListService implements AbstractListService<Chef, Pimpam> 
 	}
 	
 	@Override
-	public void unbind(final Request<Pimpam> request, final Collection<Pimpam> entities, final Model model) {
+	public void unbind(final Request<Delor> request, final Collection<Delor> entities, final Model model) {
 		assert request != null;
 		assert !CollectionHelper.someNull(entities);
 		assert model != null;
@@ -57,7 +57,7 @@ public class ChefPimpamListService implements AbstractListService<Chef, Pimpam> 
 	}
 	
 	@Override
-	public void unbind(final Request<Pimpam> request, final Pimpam entity, final Model model) {
+	public void unbind(final Request<Delor> request, final Delor entity, final Model model) {
 		assert request != null;
 		assert entity != null;
 		assert model != null;
@@ -65,7 +65,7 @@ public class ChefPimpamListService implements AbstractListService<Chef, Pimpam> 
 		final CookingItem t = this.repository.findOneCookingItemById(request.getModel().getInteger("id"));
 		model.setAttribute("tStatus", t.getStatus());
 		
-		request.unbind(entity, model, "code", "instationMoment","title", "description","startsAt","finishesAt", "budget","link");
+		request.unbind(entity, model, "keylet", "instationMoment","subject", "explanation","income","startsAt","finishesAt","moreInfo");
 	}
 
 }

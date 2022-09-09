@@ -1,0 +1,21 @@
+chef.pimpam.list.label.code= Keylet
+chef.pimpam.list.label.instationMoment= Momento de creacion
+chef.pimpam.list.label.title= Subject
+chef.pimpam.list.label.description= Explanation
+chef.pimpam.list.label.startsAt= StartsAt
+chef.pimpam.list.label.finishesAt= FinichedAt
+chef.pimpam.list.label.budget= Income
+chef.pimpam.list.label.link= More Info
+
+chef.pimpam.form.label.code= Keylet
+chef.pimpam.form.label.instationMoment= Momento de creacion
+chef.pimpam.form.label.title= Subject
+chef.pimpam.form.label.description= Explanation
+chef.pimpam.form.label.startsAt= StartsAt
+chef.pimpam.form.label.finishesAt= FinichedAt
+chef.pimpam.form.label.budget= Income
+chef.pimpam.form.label.link= More Info
+
+chef.pimpam.form.button.create= Crea tu delor
+chef.pimpam.form.button.delete= Borra este delor
+chef.pimpam.form.button.update= Actualiza este delor

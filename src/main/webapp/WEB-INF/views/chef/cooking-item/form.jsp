@@ -16,7 +16,12 @@
 				<acme:input-money code="chef.cookingItem.form.label.retailPrice" path="retailPrice" readonly="true" />
 				<acme:input-money code="epicure.label.moneyExchange" path="moneyExchange" readonly="true" />
 				<acme:input-url code="chef.cookingItem.form.label.link" path="link" readonly="true" />
-				<acme:button code="chef.pimpam.form.button.list" action="/chef/pimpam/list-pimpam?id=${id}"/>
+				
+				    <jstl:if test="${type == 'INGREDIENT' }">
+                <acme:button code="chef.pimpam.form.button.list" action="/chef/delor/list-delor?id=${id}"/>
+                </jstl:if>
+				
+				
 	
 			
 			<jstl:if test="${status == 'NONE_PUBLISHED' }">
