@@ -23,6 +23,8 @@ import lombok.Setter;
 @Setter
 public class CookingItem extends AbstractEntity{
 	
+
+	//Esto es una prueba
 	
 	private static final long serialVersionUID = 1L;
 
