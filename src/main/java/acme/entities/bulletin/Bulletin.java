@@ -21,6 +21,9 @@ import lombok.Setter;
 @Setter
 public class Bulletin extends AbstractEntity {
 
+
+	 // Esto es una prueba
+	 
 	//Serialisation identifier---------------------------------------------
 	protected static final long	serialVersionUID	= 1L;
 
